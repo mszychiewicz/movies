@@ -30,19 +30,19 @@ class Movie {
         this.account = account;
     }
 
-    Long getId() {
+    public Long getId() {
         return id;
     }
 
-    Account getAccount() {
+    public Account getAccount() {
         return account;
     }
 
-    String getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    String getDescription() {
+    public String getDescription() {
         return description;
     }
 }
