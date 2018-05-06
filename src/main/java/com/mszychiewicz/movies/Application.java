@@ -1,5 +1,9 @@
 package com.mszychiewicz.movies;
 
+import com.mszychiewicz.movies.model.Account;
+import com.mszychiewicz.movies.model.AccountRepository;
+import com.mszychiewicz.movies.model.Movie;
+import com.mszychiewicz.movies.model.MovieRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
